@@ -1,15 +1,8 @@
 # Secret Gifter 🎁
+## WIP
 Secret Gifter is Secret Santa without the paper and physical limitations. Think Kahoot, minus the admin accounts, minus the quiz... just pure gift-giving joy!
 
 ![Home Screen](images/home.png)
-
-## WIP
-
-### Core Features ✨
-- **Paper Not Required**
-- **Join From Anywhere**: NO ACCOUNTS! 8-digit PIN entry - think Kahoot
-- **Fair Assignments**: One person per Santa, with possibility of exclusion list and trades
-- **Data Wiped Instantly**
 
 ### App Flow 🎯
 
