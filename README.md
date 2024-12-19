@@ -1,5 +1,4 @@
-# Secret Gifter 🎁
-## WIP
+# Secret Gifter 🎁 (WIP)
 Secret Gifter is Secret Santa without the paper and physical limitations. Think Kahoot, minus the admin accounts, minus the quiz... just pure gift-giving joy!
 
 ![Home Screen](images/home.png)
