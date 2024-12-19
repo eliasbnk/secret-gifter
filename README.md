@@ -50,4 +50,3 @@ pnpm dev
 
 ## License 📄
 MIT - Do whatever you want with the code, just don't sue us! 😅
-```
