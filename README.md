@@ -40,7 +40,7 @@ Secret Gifter is Secret Santa without the paper and physical limitations. Think 
 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/secret-gifter.git
+git clone https://github.com/eliasbnk/secret-gifter.git
 ```
 
 2. Install dependencies
