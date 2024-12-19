@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Secret Gifter 🎁
 
-## Getting Started
+Secret Gifter is Secret Santa without the paper and physical limitations. Think Kahoot, minus the admin accounts, minus the quiz... just pure gift-giving joy!
 
-First, run the development server:
+## Core Features ✨
+
+- **Paper Not Required**: Digital name drawing
+- **Join From Anywhere**: 8-digit PIN entry
+- **Fair Assignments**: One person per Santa, possibility of exclusion list ans trades.
+- **Data Wiped Instantly**: Nothing stored, rooms expire in minutes
+
+NO ACCOUNTS - minimal cookies (just enough to work), NO TRACKING OR MARKETING  
+NO DATA RETENTION - everything in Redis, auto-expires
+
+## Party Features 🎄
+
+1. **Exclusion Lists** 👥
+
+   - Exclude 1-3 people`*` from being your Secret Santa
+   - `*`scales with group size
+
+2. **Anonymous Trades** 🔄
+
+   - One-time trading between participants
+   - You won't know who you're trading with!
+
+3. **Wishlists** 📝
+   - Share what you'd love to receive
+   - Make gift-giving meaningful
+
+## Tech Stack 🛠
+
+- Next.js + React + TypeScript
+- Redis for ephemeral storage
+- Tailwind CSS
+
+## Local Development 💻
+
+1. Clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/secret-gifter.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Set up Upstash
 
-## Learn More
+```bash
+UPSTASH_REDIS_REST_URL=""
+UPSTASH_REDIS_REST_TOKEN=""
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run it!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License 📄
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT - Do whatever you want with the code, just don't sue us! 😅
