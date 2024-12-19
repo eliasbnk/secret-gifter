@@ -60,6 +60,7 @@ const eslintConfig = [
       "prettier/prettier": ["warn"],
 
       // TypeScript Rules
+      "@typescript-eslint/no-require-imports": "error",
       "@typescript-eslint/explicit-module-boundary-types": "off",
       "@typescript-eslint/no-explicit-any": "warn",
       "@typescript-eslint/consistent-type-imports": [

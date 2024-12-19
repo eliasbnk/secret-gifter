@@ -39,14 +39,13 @@ export default function CreateParty() {
       createPartyPIN();
     }
     setCreating(true);
-    const partyConfig = {
-      partyPIN,
-      maxParticipants: parseInt(maxParticipants),
-      enableExclusions,
-      enableWishlists,
-      enableTrades,
-    };
-    console.log(partyConfig);
+    // const partyConfig = {
+    //   partyPIN,
+    //   maxParticipants: parseInt(maxParticipants),
+    //   enableExclusions,
+    //   enableWishlists,
+    //   enableTrades,
+    // };
 
     confetti({
       particleCount: 100,
