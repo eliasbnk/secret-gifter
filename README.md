@@ -27,8 +27,8 @@ Secret Gifter is Secret Santa without the paper and physical limitations. Think 
 ## Tech Stack 🛠
 
 - Next.js + React + TypeScript
-- Redis for ephemeral storage
-- Tailwind CSS
+- Upstash Redis for ephemeral storage
+- Tailwind CSS + shadcn
 
 ## Local Development 💻
 
