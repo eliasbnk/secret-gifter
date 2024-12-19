@@ -4,13 +4,10 @@ Secret Gifter is Secret Santa without the paper and physical limitations. Think 
 
 ## Core Features ✨
 
-- **Paper Not Required**: Digital name drawing
-- **Join From Anywhere**: 8-digit PIN entry
-- **Fair Assignments**: One person per Santa, possibility of exclusion list ans trades.
-- **Data Wiped Instantly**: Nothing stored, rooms expire in minutes
-
-NO ACCOUNTS - minimal cookies (just enough to work), NO TRACKING OR MARKETING  
-NO DATA RETENTION - everything in Redis, auto-expires
+- **Paper Not Required**
+- **Join From Anywhere**: NO ACCOUNTS! 8-digit PIN entry - think Kahoot
+- **Fair Assignments**: One person per Santa, with possibility of exclusion list and trades
+- **Data Wiped Instantly**
 
 ## Party Features 🎄
 
@@ -26,7 +23,6 @@ NO DATA RETENTION - everything in Redis, auto-expires
 
 3. **Wishlists** 📝
    - Share what you'd love to receive
-   - Make gift-giving meaningful
 
 ## Tech Stack 🛠
 
