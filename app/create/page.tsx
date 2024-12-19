@@ -12,7 +12,7 @@ import {
 import { Switch } from "@/components/ui/switch";
 import { ArrowLeft, Gift } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import confetti from "canvas-confetti";
 import { useParty } from "@/hooks/useParty";
 
@@ -34,21 +34,10 @@ export default function CreateParty() {
   const [enableTrades, setEnableTrades] = useState(false);
   const [isCreating, setCreating] = useState(false);
 
-  useEffect(() => {
-    const initParty = async () => {
-      try {
-        await createPartyPIN();
-      } catch (error) {
-        console.error("Failed to create party PIN:", error);
-      }
-    };
-
-    if (!partyPIN) {
-      initParty();
-    }
-  }, []);
-
   const handleCreate = () => {
+    if (!partyPIN) {
+      createPartyPIN();
+    }
     setCreating(true);
     const partyConfig = {
       partyPIN,
